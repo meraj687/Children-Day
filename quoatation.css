@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(https://i.makeagif.com/media/11-13-2015/Vb8ZpV.gif); */
+    /* background: url(https://nationaltoday.com/wp-content/uploads/2022/06/7-Children-Day.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}

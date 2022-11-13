@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(https://i.makeagif.com/media/11-13-2015/Vb8ZpV.gif); */
+    /* background: url(https://c.tadst.com/gfx/750w/un-child-rights.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

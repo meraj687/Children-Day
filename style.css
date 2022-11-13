@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(https://i.makeagif.com/media/11-13-2015/Vb8ZpV.gif); */
+    background: url(https://cliply.co/wp-content/uploads/2021/03/452103780_ARROWS_PACK_400px.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.images{
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+
+}
+/* .images img{
+    border-radius: 50%;
+    width: 50%;
+    height: 80%;
+} */
+img{
+    background-position: center;
+    background-size: contain;
+}
+
+.circular--portrait {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+    border-radius: 50%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px ;
+    
+    
+    /* animation: 2s spin infinite; */
+  }
+  @keyframes spin {
+    0%{
+        transform: rotate(0deg);   
+    }
+    100%{
+        transform: rotate(360deg);   
+    }
+  }
+  .circular--portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+
+  
